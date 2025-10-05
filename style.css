@@ -1,0 +1,112 @@
+body {
+    font-family: 'Georgia', serif; /* Classic, poetic font */
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the whole content */
+}
+
+/* ... (Existing CSS styles for .artist-promo, etc., go here) ... */
+
+/* --- STYLES FOR THE NEW CONTACT FORM --- */
+
+.artist-promo {
+    max-width: 600px;
+    margin: 50px auto 30px; /* Add space above and below */
+    padding: 30px;
+    background-color: #e8f8f5; /* Light, calming background */
+    border: 1px solid #d0ece7;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.artist-promo h3 {
+    color: #1abc9c; /* Eye-catching color */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.artist-promo p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.services-list {
+    margin: 25px 0;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.services-list h4 {
+    color: #5d6d7e;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.services-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-list li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.services-list li:last-child {
+    border-bottom: none;
+}
+
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: #d0d3d4;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.song-header {
+    background-color: #5d6d7e;
+    color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artist-image {
+    width: 150px;             /* Set a fixed size for the image */
+    height: 150px;            /* Set a fixed size for the image */
+    border-radius: 50%;       /* **Makes the image perfectly circular** */
+    object-fit: cover;        /* Ensures the image fills the circle without distortion */
+    margin: 20px auto;        /* Adds vertical space and centers it horizontally */
+    display: block;           /* Ensures the margin auto works for centering */
+    border: 4px solid #fff;   /* White border for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+
+.lyrics-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.verse {
+    background-color: #fff;
+    border-left: 5px solid #aeb6bf;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: left; /* Keep the verses left-aligned for reading */
+}
+
+
+.line-repeat {
+    color: #c0392b; /* A subtle color change for the repeated line */
+}
+
